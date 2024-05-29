@@ -1,0 +1,19 @@
+#topBrand_women{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+
+#categoryBag_women{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+}
+
+#explore_more_women{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+
+#container-top{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}

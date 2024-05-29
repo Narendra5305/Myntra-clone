@@ -1,0 +1,19 @@
+#topBrand_1 {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+#categoryBag {
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+}
+
+#explore_more{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+
+#disp-1{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
