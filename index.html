@@ -1,32 +1,51 @@
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Online Shopping for Women - Shop For Women Clothes, Shoes, Bags & More</title>
-    <link rel="shortcut icon" type="image/png" href="../Common Files/image/favicon.png">
-    <link rel="stylesheet" href="../Common Files/style.css">
-    <script src="https://kit.fontawesome.com/24c494a6b6.js" crossorigin="anonymous"></script>
+    <title>www.myntra.com</title>
+     <!-- FAVICON -->
+     <link rel="shortcut icon" type="image/png" href="image/favicon.png">
+    <!-- ALL CSS LINK -->
+    <link rel="stylesheet" href="style.css">
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="../LandingPage/navbar.css">
-    <link rel="stylesheet" href="../Common Files/womenPage.css">
-    <link rel="stylesheet" href="../LandingPage/footer.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="footer.css">
+    <!-- FONT-AWESOME -->
+    <script src="https://kit.fontawesome.com/72215895a8.js" crossorigin="anonymous"></script>
+    <style>
+        #section_1 img{
+            width: unset;
+        }
+        ol > li > span{
+            color: #505050;
+            font-weight: 700;
+        }
 
+        
+    </style>
 </head>
+
 <body>
-   
-    <!-- MENU BAR -->
+    <!-- <div id="flatdiscount">
+        <i id="sidePanel" class="fa-solid fa-caret-left"></i>
+        <h1>FLAT ₹300 OFF</h1>
+    </div> -->
+
+    <!-- HEADER MENU SECTION -->
     <header>
         <div class="" id="navbar">
             <div id="logo">
-                <img src="/Common Files/image/myntra-removebg-preview.png" alt="brandLogo" id="landingPage">
+                <img src="image/myntra-removebg-preview.png" alt="brandLogo" id="landingPage">
             </div>
             <div id="option-n">
-                <div><a href="../Homepages/menHomePage.html">Men</a></div>
+                <div><a href="menHomePage.html">Men</a></div>
                 <div><a href="#">Kids</a></div>
-                <div><a href="../Homepages/homeLiving.html">Home & living</a></div>
+                <div><a href="homeLiving.html">Home & living</a></div>
                 <div><a href="#">Beauty</a></div>
             
             </div>
@@ -49,111 +68,81 @@
             </div>
         
         </div>
+        
     </header>
 
-
-    <!-- COROUSEL SECTION -->
+    
     <div class="slider">
-        <div id="slides">
-          <!--radio buttons start-->
-          <!-- <input type="radio" name="radio-btn" id="radio1">
-          <input type="radio" name="radio-btn" id="radio2">
-          <input type="radio" name="radio-btn" id="radio3">
-          <input type="radio" name="radio-btn" id="radio4"> -->
+        <div class="slides">
+            <!--radio buttons start-->
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
 
-          <!--slide images start-->
-         <!-- slider images created using js-->
+            <!--slide images start-->
+            <div class="slide first">
+                <img src="https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2022/3/28/4ac3be4b-f02c-4106-8dc9-be1898a81def1648463267842-Desktop-Banner-----1920x504.jpg"  
+                alt="">
+            </div>
+            <div class="slide">
+                <img src="https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2022/3/17/8f1a79c7-3f11-4608-9f31-30a03a606cb41647537798522-SS22-DesktopBanners-Unisex.jpg"
+                alt="">
+            </div>
+            <div class="slide">
+                <img src="https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2022/3/17/1439d458-3f9b-4a49-830c-a47a126bb9311647456798699-Roadster_Desk_Banner.jpg"
+                alt="">
+            </div>
+            <div class="slide">
+                <img src="https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2022/3/17/52df3f93-8d0f-412d-b416-fc665706199d1647456798690-Casual-Shoes_Dk.jpg"
+                alt="">
+            </div>
         </div>
 
         <!--manual navigation start-->
-        <div class="navigation-manual" >
-          <label for="radio1" class="manual-btn"></label>
-          <label for="radio2" class="manual-btn"></label>
-          <label for="radio3" class="manual-btn"></label>
-          <label for="radio4" class="manual-btn"></label>
+        <div class="navigation-manual">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
         </div>
-      </div>
+    </div>
 
 
-      <!-- TOP BRANDS DISPLAY 1 HEADING -->
-      <h1 class="brand_heading">biggest deals on top brands</h1>
-      <div id="topBrand_women" class="container" >
-          <div><img src="https://bit.ly/3Dk3plz" alt="brand1"></div>
-          <div><img src="https://bit.ly/3NyBqDe" alt="brand2"></div>
-          <div><img src="https://bit.ly/3qN2Ewp" alt="brand3"></div>
-          <div><img src="https://bit.ly/3NyivIY" alt="brand4"></div>
-          <div><img src="https://bit.ly/3NwbdVT" alt="brand5"></div>
-          <div><img src="https://bit.ly/3NrgMVT" alt="brand6"></div>
-          <div class="forWeb"><img src="https://bit.ly/3IJeKg4" alt="brand7"></div>
-          <div class="forWeb"><img src="https://bit.ly/3DlD3zC" alt="brand8"></div>
-          <div class="forWeb"><img src="https://bit.ly/36Ymhu7" alt="brand9"></div>
-          <div class="forWeb"><img src="https://bit.ly/3IN5iZ5" alt="brand10"></div>
-      </div>
+    <h1>DEALS OF THE DAY</h1>
+    <div id="deals">
+
+    </div>
+    <h1>BEST OF MYNTRA EXCLUSIVE BRANDS</h1>
+    <div id="best"> </div>
 
 
-       <!-- TOP CATEGORIES SECTION -->
-       <h1 class="brand_heading">categories to bag</h1>
-       <div id="categoryBag_women" class="container categoryBag_women"></div>
+    <h1>TOP PICKS</h1>
+    <div id="top" class="top-slide"></div>
+
+    <h1>CATEGORIES TO BAG</h1>
+    <div id="categories"></div>
+
+    <h1>DEALS ON TOP BRANDS</h1>
+    <div id="dealsTop"></div>
+
+    <h1>UNMISSABLE THIS SEASON</h1>
+    <div id="unmissable" class="prod"></div>
 
 
-       <!-- TOP BRAND DISPLAY 2 HEADING -->
-       <h1 class="brand_heading">explore top brands</h1>
-       <div id="explore_more_women" class="display container explore_more_women"></div>
+    <h1>COLOURS OF THE SEASON</h1>
+    <div id="colours" class="prod1"></div>
 
-         <!-- CATEGORIES DISPLAY 2 -->
-       <h1 class="brand_heading">trending in western wear</h1>
-         <div class="container builder" id="container-top">
-            <div><img src="https://bit.ly/3wMju21" alt="category1"></div>
-            <div><img src="https://bit.ly/3NvX0ID" alt="category2"></div>
-            <div><img src="https://bit.ly/3tMNJ75" alt="category3"></div>
-            <div><img src="https://bit.ly/3qJVBV4" alt="category4"></div>
-            <div><img src="https://bit.ly/3uBoKCX" alt="category5"></div>
-         </div>
+    <h1>TOP INFLUENCERS EXCLUSIVE STYLE</h1>
+    <div id="topInfluencers" class="prod2" ></div>
 
-         <!-- CATEGORIES DISPLAY 3 -->
-         <h1 class="brand_heading">trending in indian wear</h1>
-         <div class="container builder" id="container-top">
-            <div><img src="https://bit.ly/3K69wN7" alt="category1"></div>
-            <div><img src="https://bit.ly/3iODr09" alt="category2"></div>
-            <div><img src="https://bit.ly/3IOGpw4" alt="category3"></div>
-            <div><img src="https://bit.ly/38furzf" alt="category4"></div>
-            <div><img src="https://bit.ly/36I8HeC" alt="category5"></div>
-         </div>
+    <h1>BUDGET PICKS INFLUENCERS LOVE</h1>
+    <div id="budget" class="prod3"></div>
 
+    <h1>TRENDING OUTFIT BY INFLUENCERS</h1>
+    <div id="trending" class="boys prod4"></div>
 
-          <!-- CATEGORIES DISPLAY 4 -->
-          <h1 class="brand_heading">trending in sports wear</h1>
-          <div class="container builder" id="container-top">
-             <div><img src="https://bit.ly/3K69y7H" alt="category1"></div>
-             <div class="forMob"><img src="https://bit.ly/3iN4YPn" alt="category2"></div>
-             <div><img src="https://bit.ly/36YoFkz" alt="category3"></div>
-             <div class="forWeb"><img src="https://bit.ly/3wINHPL" alt="category4"></div>
-             <div class="forWeb"><img src="https://bit.ly/3ISRhsO" alt="category5"></div>
-          </div>
-
-
-          <!-- CATEGORIES DISPLAY 5 -->
-          <h1 class="brand_heading">trending in footwear</h1>
-          <div class="container builder" id="container-top">
-             <div><img src="https://bit.ly/3Lm8hJN" alt="category1"></div>
-             <div><img src="https://bit.ly/3wOjfDM" alt="category2"></div>
-             <div class="forMob"><img src="https://bit.ly/3uCXq7p" alt="category3"></div>
-             <div class="forWeb"><img src="https://bit.ly/36VIvx8" alt="category4"></div>
-             <div class="forWeb"><img src="https://bit.ly/3IR4WR4" alt="category5"></div>
-          </div>
-
-
-          <!-- CATEGORIES DISPLAY 6 -->
-          <h1 class="brand_heading">trending in accessories</h1>
-          <div class="container builder" id="container-top">
-             <div><img src="https://bit.ly/3DnaNMZ" alt="category1"></div>
-             <div><img src="https://bit.ly/3wN8xxt" alt="category2"></div>
-             <div class="forMob"><img src="https://bit.ly/3LnQNwv" alt="category3"></div>
-             <div class="forWeb"><img src="https://bit.ly/35jAgu6" alt="category4"></div>
-             <div class="forWeb"><img src="https://bit.ly/3IN87cD" alt="category5"></div>
-          </div>
-
-
+   
           <!-- FOOTER SECTION -->
           <footer>
             <section id="section_1">
@@ -262,15 +251,32 @@
                <p>Myntra is the most convenient men’s online store, what with our simplified shopping and payment procedures. With just a few clicks of the mouse or taps on your smartphone, you can buy your favorites from the best men’s brands right away.</p>
            </section>
         </footer>
-
-
-    <script src="../Common Files/women.js"></script>
-    <script src="../Common Files/headerMenu.js"></script>
-    <script src="../Common Files/corousel.js"></script>
-    <script src="../Common Files/hyperlinks.js"></script>
-    
-
 </body>
 
-
 </html>
+<script src="deals.js"></script>
+<script src="headerMenu.js"></script>
+<script src="corousel.js"></script>
+<script src="hyperlinks.js"></script>
+
+
+<!-- <div id="right_icon">
+    <div id="reggDropdown"> -->
+        <!-- DROPDOWN MENU TO BE CREATED FOR LOGIN AND SIGNUP -->
+      <!-- <div id="drop">
+          <a href="/Profile/profile.html" class="dropList">login</a>
+          <a href="/Profile/signup.html" class="dropList">sign up</a>
+      </div>
+
+      <i class="fa-regular fa-user"></i>
+      <span>profile</span>
+  </div>
+    <div>
+        <i class="fa-regular fa-heart"></i>
+        <span>wishlist</span>
+    </div>
+    <div>
+        <i class="fa-solid fa-bag-shopping"></i>
+        <span>bag</span>
+    </div>
+</div> -->

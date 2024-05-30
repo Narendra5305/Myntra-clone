@@ -19,7 +19,7 @@ function loginfun(){
              document.querySelector("#mob").value = ""; 
              document.querySelector("#pass").value = "";
 
-              window.location.href ="../payment/address.html";
+              window.location.href ="address.html";
               break;
            }else{
              alert("wrong password")
@@ -52,11 +52,11 @@ document.getElementById('profile').addEventListener('click',()=>{
 })
 
 document.getElementById('landingPage').addEventListener('click', function(){
-  window.location.href = "../Landingpage/index.html"
+  window.location.href = "index.html"
 })
 
 document.getElementById('signUp').addEventListener('click', function(){
-  window.location.href = "../Profile/signup.html"
+  window.location.href = "signup.html"
   
 })
 

@@ -49,10 +49,10 @@ document.getElementById('profile').addEventListener('click', function(){
     window.location.href = "profile.html"
   })
 document.getElementById('landingPage').addEventListener('click', function(){
-    window.location.href = "../Landingpage/index.html"
+    window.location.href = "index.html"
 })
 
 document.querySelector('#logIn').addEventListener('click', function(){
     console.log("a")
-    window.location.href = "../Profile/profile.html"
+    window.location.href = "profile.html"
 })

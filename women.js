@@ -85,10 +85,10 @@ var categoryBag = [
   var images = document.querySelectorAll('img')
   for(let i=0; i<images.length; i++){
     images[i].addEventListener('click', function(){
-      window.location.href = "../womensdata/women.html"
+      window.location.href = "women.html"
     })
   }
   // LANDING PAGE
   document.getElementById('landingPage').addEventListener('click', function(){
-    window.location.href = "../Landingpage/index.html"
+    window.location.href = "index.html"
   })

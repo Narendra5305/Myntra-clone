@@ -36,7 +36,7 @@ dealsArr.map(function (el) {
 
 deals= document.querySelector("#deals");
 deals.addEventListener("click" , ()=>{
-    window.location.href = "../HomePages/menHomePage.html"
+    window.location.href = "menHomePage.html"
 })
 
 
@@ -441,52 +441,52 @@ document.getElementById('landingPage').addEventListener('click', function(){
 
 deals= document.querySelector("#deals");
 deals.addEventListener("click" , ()=>{
-    window.location.href = "../HomePages/WomenHomePage.html"
+    window.location.href = "WomenHomePage.html"
 })
 
 
 best = document.querySelector("#best");
 best.addEventListener("click", ()=>{
-    window.location.href ="../Homepages/WomenHomePage.html"
+    window.location.href ="WomenHomePage.html"
 })
 
 topslide = document.querySelector(".top-slide");
 topslide.addEventListener("click", ()=>{
-    window.location.href ="../Homepages/WomenHomePage.html"
+    window.location.href ="WomenHomePage.html"
 })
 
 
 categorie = document.querySelector("#categories");
 categorie.addEventListener("click", ()=>{
-    window.location.href ="../Homepages/WomenHomePage.html"
+    window.location.href ="WomenHomePage.html"
 })
 
 
 dealsTop = document.querySelector("#dealsTop");
 dealsTop.addEventListener("click", ()=>{
-    window.location.href ="../Homepages/WomenHomePage.html"
+    window.location.href ="WomenHomePage.html"
 })
 
 prod = document.querySelector(".prod");
 prod.addEventListener("click", ()=>{
-    window.location.href ="../Homepages/WomenHomePage.html"
+    window.location.href ="WomenHomePage.html"
 })
 
 prod1 = document.querySelector(".prod1");
 prod1.addEventListener("click", ()=>{
-    window.location.href ="../Homepages/WomenHomePage.html"
+    window.location.href ="WomenHomePage.html"
 })
 
 prod2 = document.querySelector(".prod2");
 prod2.addEventListener("click", ()=>{
-    window.location.href ="../Homepages/WomenHomePage.html"
+    window.location.href ="WomenHomePage.html"
 })
 
 prod3 = document.querySelector(".prod3");
 prod3.addEventListener("click", ()=>{
-    window.location.href ="../Homepages/WomenHomePage.html"
+    window.location.href ="WomenHomePage.html"
 })
 prod4 = document.querySelector(".prod4");
 prod4.addEventListener("click", ()=>{
-    window.location.href ="../Homepages/WomenHomePage.html"
+    window.location.href ="WomenHomePage.html"
 })

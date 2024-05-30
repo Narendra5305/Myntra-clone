@@ -110,7 +110,7 @@ var cartarr = JSON.parse(localStorage.getItem("BagListObj"))||[];
         document.querySelector(".makeorder").addEventListener("click",profile)
 
         function profile(){
-          window.location.href="../Profile/signup.html";
+          window.location.href="signup.html";
         }
 
         document.querySelector(".apply").addEventListener("click",discountfun);
@@ -136,12 +136,12 @@ var cartarr = JSON.parse(localStorage.getItem("BagListObj"))||[];
         }
 
 document.getElementById('landingPage').addEventListener('click', function(){
-  window.location.href = "../Landingpage/index.html";
+  window.location.href = "index.html";
 
 }) 
 
 document.querySelector("#second").addEventListener("click",function(){
-  window.location.href="../Profile/signup.html";
+  window.location.href="signup.html";
 })
 
 

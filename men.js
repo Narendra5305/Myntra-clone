@@ -92,11 +92,11 @@ document.getElementById('landingPage').addEventListener('click', function(){
 var images = document.querySelectorAll('img')
 for(let i=0; i<images.length; i++){
   images[i].addEventListener('click', function(){
-    window.location.href = "../menspage/mens.html"
+    window.location.href = "mens.html"
   })
 }
 
 // LANDING PAGE
 document.getElementById('landingPage').addEventListener('click', function(){
-  window.location.href = '../Landingpage/index.html'
+  window.location.href = 'index.html'
 })

@@ -95,11 +95,11 @@ var anchors_para = [
   var z = document.querySelectorAll('img');
   for(let i=0; i<z.length; i++){
       z[i].addEventListener('click', function(){
-          window.location.href = "/Home Living Products/home_furnishing.html"
+          window.location.href = "home_furnishing.html"
       })
   }
   
   // LANDING PAGE
   document.getElementById('landingPage').addEventListener('click', function(){
-      window.location.href = "/LandingPage/index.html"
+      window.location.href = "index.html"
   })
